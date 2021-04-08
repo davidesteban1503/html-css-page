@@ -237,6 +237,22 @@
       margin-top: 2.5%;
   }
   
+  .colum-sup {
+      width: 100%;
+      height: 31.6;
+  }
+  
+  .colum-cen {
+      width: 100%;
+      height: 31.6%;
+      margin-top: 19%;
+  }
+  
+  .colum.inf {
+      width: 100%;
+      height: 31.6%;
+  }
+  
   .section-2 {
       width: 100%;
       height: 10%;

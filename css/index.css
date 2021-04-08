@@ -34,7 +34,7 @@
       width: 100%;
       height: 70px;
       max-width: 1280px;
-      background-color: rgba(80, 190, 190, 0.7);
+      background-color: rgba(0, 200, 20, 0.7);
   }
   
   .name {
@@ -42,6 +42,38 @@
       height: 100%;
       float: left;
       text-align: center;
-      padding-top: 25px;
+      padding-top: 15px;
       font-size: 2em;
+  }
+  
+  .portafolio {
+      width: 10%;
+      height: 100%;
+      text-align: center;
+      float: left;
+      background: rgba(0, 200, 20, 0.7);
+  }
+  
+  .portafolio ul {
+      list-style: none;
+  }
+  
+  .portafolio ul li {
+      display: inline-block;
+      width: 120px;
+  }
+  
+  .portafolio ul li a {
+      display: block;
+      text-decoration: none;
+      font-size: 2em;
+      color: white;
+      text-align: center;
+      padding: 11px 5px;
+      border-bottom: 2px solid grey;
+  }
+  
+  .portafolio ul li a:hover {
+      border-bottom: 2px solid green;
+      background: black;
   }

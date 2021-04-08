@@ -227,11 +227,14 @@
       height: 100%;
       float: left;
   }
+  /*internal portfolios*/
   
   .folders-int {
-      width: 100%;
-      height: 100%;
+      width: 95%;
+      height: 90%;
       float: left;
+      margin-left: 2.5%;
+      margin-top: 2.5%;
   }
   
   .section-2 {

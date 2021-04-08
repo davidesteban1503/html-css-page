@@ -186,9 +186,10 @@
   }
   
   .seccion h2 {
-      font-size: 2em;
+      font-size: 3em;
       color: black;
       text-align: center;
+      margin-top: -0.0%;
   }
   
   .primary {

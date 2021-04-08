@@ -44,6 +44,7 @@
       text-align: center;
       padding-top: 15px;
       font-size: 2em;
+      color: white;
   }
   
   .portafolio {
@@ -158,9 +159,39 @@
   .img-primary {
       width: 20%;
       height: 40%;
-      margin-left: 42%;
-      margin-top: 7%;
+      margin-left: 39%;
+      margin-top: 8%;
       background: url(../img/one.jpg);
       background-size: 100% 100%;
       border-radius: 50%;
+  }
+  /*Text*/
+  
+  h2 {
+      font-size: 4em;
+      text-align: center;
+      color: white;
+      margin-top: 2%;
+  }
+  
+  .seccion {
+      width: 100%;
+      height: 10vh;
+      background-color: white;
+  }
+  
+  .seccion-2 {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .seccion h2 {
+      font-size: 2em;
+      color: black;
+      text-align: center;
+  }
+  
+  .primary {
+      width: 10%;
+      height: 20%;
   }

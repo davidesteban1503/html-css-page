@@ -176,13 +176,11 @@
   
   .seccion {
       width: 100%;
-      height: 10vh;
+      height: 10%;
+      max-width: 1280vh;
       background-color: white;
-  }
-  
-  .seccion-2 {
-      width: 100%;
-      height: 100%;
+      float: left;
+      margin-top: 14.9%;
   }
   
   .seccion h2 {
@@ -193,6 +191,30 @@
   }
   
   .primary {
-      width: 10%;
-      height: 20%;
+      width: 100%;
+      height: 100%;
+      float: left;
+      background-color: gray;
+  }
+  
+  .seccion-2 {
+      width: 100%;
+      height: 10%;
+      max-width: 1280vh;
+      background-color: white;
+      float: left;
+  }
+  
+  .seccion-2 h2 {
+      font-size: 3em;
+      color: black;
+      text-align: center;
+      margin-top: -0.0%;
+  }
+  
+  .second {
+      width: 100%;
+      height: 100%;
+      float: left;
+      background-color: gray;
   }

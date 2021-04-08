@@ -1,276 +1,359 @@
-  /*eslitos generales*/
-  
-  * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Inria Serif', serif;
-  }
-  /* special classes */
-  
-  .contenedor {
-      width: 95%;
-      height: 100vh;
-      max-width: 1280px;
-      margin: auto;
-  }
-  
-  .borde {
-      border: 1px solid black;
-  }
-  
-  .titulo {
-      widows: 100%;
-      height: 10%;
-      text-align: center;
-  }
-  
-  .alinear-arriba {
-      vertical-align: top;
-  }
-  /*browser*/
-  
-  .nav {
-      width: 100%;
-      height: 70px;
-      max-width: 1280px;
-      background-color: rgba(0, 200, 20, 0.7);
-  }
-  
-  .name {
-      width: 30%;
-      height: 100%;
-      float: left;
-      text-align: center;
-      padding-top: 20px;
-      font-size: 1.8em;
-      color: white;
-  }
-  
-  .portafolio {
-      width: 10%;
-      height: 80%;
-      text-align: center;
-      float: left;
-      padding-top: 1px;
-      margin-left: 30%;
-      margin-top: 10px;
-      border-radius: 4px;
-  }
-  
-  .portafolio ul {
-      list-style: none;
-  }
-  
-  .portafolio ul li {
-      display: inline-block;
-      width: 120px;
-  }
-  
-  .portafolio ul li a {
-      display: block;
-      text-decoration: none;
-      font-size: 1.5em;
-      color: white;
-      text-align: center;
-      padding: 11px 5px;
-  }
-  
-  .portafolio ul li a:hover {
-      background: rgba(111, 112, 111, 1);
-      border-radius: 4px;
-  }
-  
-  .about {
-      width: 10%;
-      height: 80%;
-      text-align: center;
-      float: left;
-      padding-top: 1px;
-      margin-left: 2.5%;
-      margin-top: 10px;
-      border-radius: 4px;
-  }
-  
-  .about ul {
-      list-style: none;
-  }
-  
-  .about ul li {
-      display: inline-block;
-      width: 120px;
-  }
-  
-  .about ul li a {
-      display: block;
-      text-decoration: none;
-      font-size: 1.5em;
-      color: white;
-      text-align: center;
-      padding: 11px 5px;
-  }
-  
-  .about ul li a:hover {
-      background: rgba(111, 112, 111, 1);
-      border-radius: 4px;
-  }
-  
-  .contanc {
-      width: 10%;
-      height: 80%;
-      text-align: center;
-      float: left;
-      padding-top: 1px;
-      margin-left: 2.5%;
-      margin-top: 10px;
-      border-radius: 4px;
-  }
-  
-  .contanc ul {
-      list-style: none;
-  }
-  
-  .contanc ul li {
-      display: inline-block;
-      width: 120px;
-  }
-  
-  .contanc ul li a {
-      display: block;
-      text-decoration: none;
-      font-size: 1.5em;
-      color: white;
-      text-align: center;
-      padding: 11px 5px;
-  }
-  
-  .contanc ul li a:hover {
-      background: rgba(111, 112, 111, 1);
-      border-radius: 4px;
-  }
-  /*Header*/
-  
-  .contenedor-principal {
-      width: 100%;
-      height: 100vh;
-      float: left;
-      background-color: gray;
-  }
-  
-  .img-primary {
-      width: 20%;
-      height: 40%;
-      margin-left: 39%;
-      margin-top: 8%;
-      background: url(../img/one.jpg);
-      background-size: 100% 100%;
-      border-radius: 50%;
-  }
-  /*Text*/
-  
-  h2 {
-      font-size: 4em;
-      text-align: center;
-      color: white;
-      margin-top: 2%;
-  }
-  
-  h3 {
-      font-size: 2em;
-      color: white;
-      text-align: center;
-  }
-  
-  .contenedor-principal i {
-      font-size: 2em;
-      margin-top: 2%;
-      margin-left: 48%;
-      color: white;
-  }
-  
-  .section i {
-      font-size: 2em;
-      color: rgb(0, 0, 0);
-  }
-  
-  .section h2 {
-      font-size: 3em;
-      color: black;
-      text-align: center;
-      margin-top: -0.0%;
-  }
-  /*Section*/
-  
-  .section {
-      width: 100%;
-      height: 15%;
-      max-width: 1280vh;
-      background-color: white;
-      float: left;
-      margin-top: 7.4%;
-  }
-  
-  .section h2 {
-      font-size: 3em;
-      color: black;
-      text-align: center;
-      margin-top: -0.0%;
-  }
-  
-  .section i {
-      margin-top: 0.1%;
-  }
-  /*Portfolios*/
-  
-  .primary {
-      width: 100%;
-      height: 100%;
-      float: left;
-  }
-  /*internal portfolios*/
-  
-  .folders-int {
-      width: 95%;
-      height: 90%;
-      float: left;
-      margin-left: 2.5%;
-      margin-top: 2.5%;
-  }
-  
-  .colum-sup {
-      width: 100%;
-      height: 31.6;
-  }
-  
-  .colum-cen {
-      width: 100%;
-      height: 31.6%;
-      margin-top: 19%;
-  }
-  
-  .colum.inf {
-      width: 100%;
-      height: 31.6%;
-  }
-  
-  .section-2 {
-      width: 100%;
-      height: 10%;
-      max-width: 1280vh;
-      background-color: white;
-      float: left;
-  }
-  
-  .section-2 h2 {
-      font-size: 3em;
-      color: black;
-      text-align: center;
-      margin-top: -0.0%;
-  }
-  
-  .second {
-      width: 100%;
-      height: 100%;
-      float: left;
-      background-color: gray;
-  }
+/*eslitos generales*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Serif', serif;
+}
+
+
+/* special classes */
+
+.contenedor {
+    width: 95%;
+    height: 100vh;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.borde {
+    border: 1px solid black;
+}
+
+.titulo {
+    widows: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.alinear-arriba {
+    vertical-align: top;
+}
+
+
+/*browser*/
+
+.nav {
+    width: 100%;
+    height: 70px;
+    max-width: 1280px;
+    background-color: rgba(0, 200, 20, 0.7);
+}
+
+.name {
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.8em;
+    color: white;
+}
+
+.portafolio {
+    width: 10%;
+    height: 80%;
+    text-align: center;
+    float: left;
+    padding-top: 1px;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.portafolio ul {
+    list-style: none;
+}
+
+.portafolio ul li {
+    display: inline-block;
+    width: 120px;
+}
+
+.portafolio ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding: 11px 5px;
+}
+
+.portafolio ul li a:hover {
+    background: rgba(111, 112, 111, 1);
+    border-radius: 4px;
+}
+
+.about {
+    width: 10%;
+    height: 80%;
+    text-align: center;
+    float: left;
+    padding-top: 1px;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.about ul {
+    list-style: none;
+}
+
+.about ul li {
+    display: inline-block;
+    width: 120px;
+}
+
+.about ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding: 11px 5px;
+}
+
+.about ul li a:hover {
+    background: rgba(111, 112, 111, 1);
+    border-radius: 4px;
+}
+
+.contanc {
+    width: 10%;
+    height: 80%;
+    text-align: center;
+    float: left;
+    padding-top: 1px;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.contanc ul {
+    list-style: none;
+}
+
+.contanc ul li {
+    display: inline-block;
+    width: 120px;
+}
+
+.contanc ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding: 11px 5px;
+}
+
+.contanc ul li a:hover {
+    background: rgba(111, 112, 111, 1);
+    border-radius: 4px;
+}
+
+
+/*Header*/
+
+.contenedor-principal {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color: gray;
+}
+
+.img-primary {
+    width: 20%;
+    height: 40%;
+    margin-left: 39%;
+    margin-top: 8%;
+    background: url(../img/one.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+
+/*Text*/
+
+h2 {
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+}
+
+h3 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.contenedor-principal i {
+    font-size: 2em;
+    margin-top: 2%;
+    margin-left: 48%;
+    color: white;
+}
+
+.section i {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+.section h2 {
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    margin-top: -0.0%;
+}
+
+
+/*Section*/
+
+.section {
+    width: 100%;
+    height: 15%;
+    max-width: 1280vh;
+    background-color: white;
+    float: left;
+    margin-top: 7.4%;
+}
+
+.section h2 {
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    margin-top: -0.0%;
+}
+
+.section i {
+    margin-top: 0.1%;
+}
+
+
+/*Portfolios*/
+
+.primary {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+
+/*internal portfolios*/
+
+.folders-int {
+    width: 95%;
+    height: 90%;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    padding-left: 8.5%;
+    padding-top: 4%;
+}
+
+.colum-izq {
+    width: 90%;
+    height: 40%;
+}
+
+.colum-inf {
+    width: 90%;
+    height: 40%;
+    margin-top: 5%;
+}
+
+
+/*inner boxes*/
+
+.one {
+    width: 30%;
+    height: 100%;
+    float: left;
+    border-radius: 15%;
+    background: url(../img/casa.jpg);
+    background-size: 100% 100%;
+}
+
+.two {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 15%;
+    background: url(../img/ponque.jpg);
+    background-size: 100% 100%;
+}
+
+.three {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 15%;
+    background: url(../img/circo.jpg);
+    background-size: 100% 100%;
+}
+
+.four {
+    width: 30%;
+    height: 100%;
+    float: left;
+    border-radius: 15%;
+    background: url(../img/control.jpg);
+    background-size: 100% 100%;
+}
+
+.five {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 15%;
+    background: url(../img/caja-fuerte.jpg);
+    background-size: 100% 100%;
+}
+
+.six {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 15%;
+    background: url(../img/submarino.jpg);
+    background-size: 100% 100%;
+}
+
+
+/*images*/
+
+.one img {
+    background-size: 100% 100%;
+}
+
+.section-2 {
+    width: 100%;
+    height: 10%;
+    max-width: 1280vh;
+    background-color: white;
+    float: left;
+}
+
+
+/*About*/
+
+.section-2 h2 {
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    margin-top: -0.0%;
+    height: 5%;
+}
+
+.second {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: gray;
+}

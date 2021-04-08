@@ -48,12 +48,13 @@
   
   .portafolio {
       width: 10%;
-      height: 100%;
+      height: 80%;
       text-align: center;
       float: left;
-      padding-top: 10px;
+      padding-top: 1px;
       margin-left: 30%;
-      background: rgba(0, 200, 20, 0.7);
+      margin-top: 10px;
+      border-radius: 4px;
   }
   
   .portafolio ul {
@@ -72,22 +73,22 @@
       color: white;
       text-align: center;
       padding: 11px 5px;
-      border-bottom: 2px solid grey;
   }
   
   .portafolio ul li a:hover {
-      border-bottom: 2px solid white;
       background: black;
+      border-radius: 4px;
   }
   
   .about {
       width: 10%;
-      height: 100%;
+      height: 80%;
       text-align: center;
       float: left;
-      padding-top: 10px;
+      padding-top: 1px;
       margin-left: 2.5%;
-      background: rgba(0, 200, 20, 0.7);
+      margin-top: 10px;
+      border-radius: 4px;
   }
   
   .about ul {
@@ -106,22 +107,22 @@
       color: white;
       text-align: center;
       padding: 11px 5px;
-      border-bottom: 2px solid grey;
   }
   
   .about ul li a:hover {
-      border-bottom: 2px solid white;
       background: black;
+      border-radius: 4px;
   }
   
   .contanc {
       width: 10%;
-      height: 100%;
+      height: 80%;
       text-align: center;
       float: left;
-      padding-top: 10px;
+      padding-top: 1px;
       margin-left: 2.5%;
-      background: rgba(0, 200, 20, 0.7);
+      margin-top: 10px;
+      border-radius: 4px;
   }
   
   .contanc ul {
@@ -140,10 +141,14 @@
       color: white;
       text-align: center;
       padding: 11px 5px;
-      border-bottom: 2px solid grey;
   }
   
   .contanc ul li a:hover {
-      border-bottom: 2px solid white;
       background: black;
+      border-radius: 4px;
+  }
+  
+  .contenedor-principal {
+      width: 100%;
+      height: 100vh;
   }

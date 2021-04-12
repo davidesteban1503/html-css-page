@@ -160,7 +160,7 @@
     width: 100%;
     height: 100vh;
     float: left;
-    background-color: gray;
+    background-color: rgb(39, 8, 124);
 }
 
 .img-primary {
@@ -217,7 +217,7 @@ h3 {
     max-width: 1280vh;
     background-color: white;
     float: left;
-    margin-top: 7.4%;
+    margin-top: 9%;
 }
 
 .section h2 {
@@ -229,6 +229,7 @@ h3 {
 
 .section i {
     margin-top: 0.1%;
+    color: brown;
 }
 
 
@@ -271,7 +272,16 @@ h3 {
     width: 30%;
     height: 100%;
     float: left;
-    border-radius: 15%;
+    border-radius: 10%;
+    padding-left: 5.6%;
+    padding-top: 2%;
+    background-color: rgb(10, 42, 83);
+}
+
+.pone {
+    width: 75%;
+    height: 90%;
+    border-radius: 70%;
     background: url(../img/casa.jpg);
     background-size: 100% 100%;
 }
@@ -281,7 +291,16 @@ h3 {
     height: 100%;
     float: left;
     margin-left: 5%;
-    border-radius: 15%;
+    border-radius: 10%;
+    padding-left: 5.6%;
+    padding-top: 2%;
+    background-color: rgb(155, 6, 117);
+}
+
+.ptwo {
+    width: 75%;
+    height: 90%;
+    border-radius: 70%;
     background: url(../img/ponque.jpg);
     background-size: 100% 100%;
 }
@@ -291,7 +310,16 @@ h3 {
     height: 100%;
     float: left;
     margin-left: 5%;
-    border-radius: 15%;
+    border-radius: 10%;
+    padding-left: 5.6%;
+    padding-top: 2%;
+    background-color: rgb(8, 77, 25);
+}
+
+.pthree {
+    width: 75%;
+    height: 90%;
+    border-radius: 70%;
     background: url(../img/circo.jpg);
     background-size: 100% 100%;
 }
@@ -300,7 +328,16 @@ h3 {
     width: 30%;
     height: 100%;
     float: left;
-    border-radius: 15%;
+    border-radius: 10%;
+    padding-left: 5.6%;
+    padding-top: 2%;
+    background-color: rgb(3, 3, 3);
+}
+
+.pfour {
+    width: 75%;
+    height: 90%;
+    border-radius: 70%;
     background: url(../img/control.jpg);
     background-size: 100% 100%;
 }
@@ -310,7 +347,16 @@ h3 {
     height: 100%;
     float: left;
     margin-left: 5%;
-    border-radius: 15%;
+    border-radius: 10%;
+    padding-left: 5.6%;
+    padding-top: 2%;
+    background-color: rgb(21, 150, 224);
+}
+
+.pfive {
+    width: 75%;
+    height: 90%;
+    border-radius: 70%;
     background: url(../img/caja-fuerte.jpg);
     background-size: 100% 100%;
 }
@@ -320,7 +366,16 @@ h3 {
     height: 100%;
     float: left;
     margin-left: 5%;
-    border-radius: 15%;
+    border-radius: 10%;
+    padding-left: 5.6%;
+    padding-top: 2%;
+    background-color: rgb(150, 202, 6);
+}
+
+.psix {
+    width: 75%;
+    height: 90%;
+    border-radius: 70%;
     background: url(../img/submarino.jpg);
     background-size: 100% 100%;
 }
@@ -332,23 +387,63 @@ h3 {
     background-size: 100% 100%;
 }
 
-.section-2 {
-    width: 100%;
-    height: 10%;
-    max-width: 1280vh;
-    background-color: white;
-    float: left;
-}
-
 
 /*About*/
 
+.section-2 {
+    width: 100%;
+    height: 90%;
+    max-width: 1280vh;
+    background-color: rgb(39, 8, 124);
+    float: left;
+    padding-top: 7%;
+}
+
 .section-2 h2 {
-    font-size: 3em;
-    color: black;
+    font-size: 3.5em;
+    color: white;
     text-align: center;
-    margin-top: -0.0%;
+    margin-top: -1%;
     height: 5%;
+}
+
+.section-2 i {
+    color: white;
+    margin-top: 3%;
+}
+
+
+/*text*/
+
+.caja_text {
+    width: 65%;
+    height: 45%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.cajaizq-text {
+    width: 40%;
+    height: 100%;
+    float: right;
+    margin-left: 4%;
+}
+
+.cajaizq-text p {
+    font-size: 1.4em;
+    padding: 5% 5% 5% 5%;
+    color: white;
+}
+
+.cajader-text {
+    width: 40%;
+    height: 100%;
+}
+
+.cajader-text p {
+    font-size: 1.4em;
+    padding: 5% 5% 5% 5%;
+    color: white;
 }
 
 .second {
